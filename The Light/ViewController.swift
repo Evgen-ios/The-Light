@@ -19,13 +19,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         switchlight(number: colorLigh)
     }
-
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         switchlight(number: colorLigh)
         
     }
     
-//    MARK: Switch Light
+    //    MARK: Switch Light
     func switchlight(number: Int) {
         switch number {
         case 1:
@@ -33,7 +33,8 @@ class ViewController: UIViewController {
         case 2:
             view.backgroundColor = .red
         case 3:
-            view.backgroundColor = .blue
+            view.backgroundColor = .yellow
+
         default:
             view.backgroundColor = .white
             colorLigh = 0
