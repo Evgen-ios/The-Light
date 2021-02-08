@@ -34,12 +34,12 @@ class ViewController: UIViewController {
             view.backgroundColor = .red
         case 3:
             view.backgroundColor = .yellow
-
         default:
             view.backgroundColor = .white
             colorLigh = 0
         }
         
         colorLigh += 1
+        
     }
 }
